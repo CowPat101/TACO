@@ -1,7 +1,7 @@
 train: TACO/yolo_format/images/train
 val: TACO/yolo_format/images/val
 
-nc: 60  # Number of classes in the TACO dataset
+nc: 73  # Number of classes in the TACO dataset
 names: [
   'Aluminium foil', 'Battery', 'Blister pack', 'Bottle', 'Bottle cap', 'Broken glass',
   'Can', 'Carton', 'Cigarette', 'Cup', 'Food waste', 'Glass jar', 'Lid', 'Other plastic',
