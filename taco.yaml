@@ -1,0 +1,18 @@
+train: TACO/yolo_format/images/train
+val: TACO/yolo_format/images/val
+
+nc: 60  # Number of classes in the TACO dataset
+names: [
+  'Aluminium foil', 'Battery', 'Blister pack', 'Bottle', 'Bottle cap', 'Broken glass',
+  'Can', 'Carton', 'Cigarette', 'Cup', 'Food waste', 'Glass jar', 'Lid', 'Other plastic',
+  'Paper', 'Paper bag', 'Plastic bag & wrapper', 'Plastic container', 'Plastic gloves',
+  'Plastic lid', 'Plastic straw', 'Plastic utensils', 'Pop tab', 'Rope & strings',
+  'Scrap metal', 'Shoe', 'Squeezable tube', 'Straw', 'Styrofoam piece', 'Tupperware',
+  'Unlabeled litter', 'Unlabelled litter', 'Battery', 'Pen', 'Balloon', 'Chip bag',
+  'Band aid', 'Book', 'Box', 'Candy wrapper', 'Cardboard', 'CD', 'Christmas Tree',
+  'Cloth', 'Diaper', 'Drink pouch', 'Egg carton', 'Face mask', 'Film canister', 'Foam',
+  'Food packaging', 'Hat', 'Hygiene', 'Ice pack', 'Magazine', 'Makeup item', 'Mirror',
+  'Napkin', 'Newspaper', 'Oil bottle', 'Paper cup', 'Pencil', 'Pill', 'Pizza box',
+  'Plastic item', 'Plastic straw', 'Razor', 'Syringe', 'Tampon', 'Tissue', 'Toothbrush',
+  'Toothpaste tube', 'Wrapping paper'
+]

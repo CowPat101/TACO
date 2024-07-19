@@ -51,8 +51,12 @@ os.makedirs('TACO/yolo_format/images/val', exist_ok=True)
 
 # Copy training images to the appropriate directory
 for item in train_data:
-    copyfile(os.path.join('data', item['file_name']), os.path.join('TACO/yolo_format/images/train', item['file_name']))
+    train_image_path = os.path.join('TACO/yolo_format/images/train', item['file_name'])
+    os.makedirs(os.path.dirname(train_image_path), exist_ok=True)
+    copyfile(os.path.join('data', item['file_name']), train_image_path)
 
 # Copy validation images to the appropriate directory
 for item in val_data:
-    copyfile(os.path.join('data', item['file_name']), os.path.join('TACO/yolo_format/images/val', item['file_name']))
+    val_image_path = os.path.join('TACO/yolo_format/images/val', item['file_name'])
+    os.makedirs(os.path.dirname(val_image_path), exist_ok=True)
+    copyfile(os.path.join('data', item['file_name']), val_image_path)
