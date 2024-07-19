@@ -1,5 +1,5 @@
-train: TACO/yolo_format/images/train
-val: TACO/yolo_format/images/val
+train: /Users/jackcavar/Documents/Jack testing/TACO_HOLD/TACO/yolo_format/images/train
+val: /Users/jackcavar/Documents/Jack testing/TACO_HOLD/TACO/yolo_format/images/val
 
 nc: 73  # Number of classes in the TACO dataset
 names: [
